@@ -21,6 +21,7 @@ body {
     font-family: 'Roboto', sans-serif;
         opacity: 75%;
     color: #5d3571;
+    line-height: 1.2em;
 }
 
 a {
@@ -54,7 +55,7 @@ h1 {
     font-size: 56px;
     letter-spacing: 1px;
     font-weight: 100;
-        padding-top: 15px;
+/*    padding-top: 15px;*/
 }
 
 h2 {
@@ -74,11 +75,11 @@ h3 {
 
 h4 {
     font-style: italic;
-    font-size: 14px;
+    font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 300;
-        padding-top: 15px;
+    padding-top: 10px;
 }
 
 .comment{
