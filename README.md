@@ -13,3 +13,14 @@ I hope to refine it more later.
 Feel free to play around with it <3
 
 Made with love in mimosa agency (mimosaagency.com)
+
+
+____
+
+How to install
+
+1. Download the repository as a zip file or clone it to your desktop
+2. Edit the index and the stylesheet
+3. Change the files, try to use similar ratio for the images as it is responsive, but so far hard-coded. If you want a feed or other widget, feel free to check the official ones from the social networks of your choice.
+
+Have fun!
