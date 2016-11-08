@@ -4,66 +4,72 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
-img {
-    background-image: url(oval.gif);
+.profile {
+    background-image: url(oval.png);
     background-repeat: no-repeat;
     background-position: 50%;
     border-radius: 50%;
     width: 175px;
     height: 175px;
-
-
-}
-
-
-body {
-    padding-top: 0px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
-    background-color: #F8BBD0;
-    font-family: 'Roboto', sans-serif;
-        opacity: 75%;
-}
-
-
-hr {
-    border-color: #777;
-}
-
-img {
-    border-color: #777;
     border-width: 3px;
 }
 
 
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    background-color: #fdbfae;
+    font-family: 'Roboto', sans-serif;
+        opacity: 75%;
+    color: #5d3571;
+}
+
 a {
     font-weight:300;
-    color: #000;
+    color: #5d3571;
 }
 
 a:hover{
-    color: #000;
+color:hsla(0,0%,100%,.9);
+text-shadow:rgba(0,0,0,.2) 0 0 10px;
+text-decoration: none;
+transition: color .5s,text-shadow .5s;
+/*color: #fff
     font-weight:400;
-    text-decoration: none;
+*/    
 }
 
 hr{
     display: block;
-}
+    border-color: #5d3571;
 
-/*h3 {
-    display: inline;
-    padding-left: 20px;
-}*/
+}
 
 
 p {
     font-weight: 300;
 }
 
+h1 {
+/*    font-style: italic;*/
+    font-size: 56px;
+    letter-spacing: 1px;
+    font-weight: 100;
+        padding-top: 15px;
+}
+
+h2 {
+/*    font-style: italic;*/
+    font-size: 56px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    line-height: 3px;
+}
+
+
 
 h3 {
-/*    font-style: italic;*/
-/*    text-transform: uppercase;*/
     font-weight: 300;
+    padding-top: 15px;
 }
 
 h4 {
@@ -72,6 +78,7 @@ h4 {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 300;
+        padding-top: 15px;
 }
 
 .comment{
@@ -98,9 +105,26 @@ footer {
     padding: 30px 0;
 }
 
+.btn-default {
+    margin-top: 20px;
+    border-color: #5d3571;
+    background-color: transparent;
+    color: #5d3571;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
+    border-color: #5d3571;
+    background-color: #5d3571;
+    color: #fdbfae;
+    }
+
+
 @media(min-width:768px) {
     body {
-        padding-top: 20px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+        padding-top: 50px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
     }
 
     .navbar-fixed-top .navbar-brand {
@@ -108,17 +132,31 @@ footer {
     }
 }
 
-
-.btn-default {
+@media(max-width:768px) {
     
-    border-color: #000;
-    background-color: transparent;
-    color: #000;
+    .col-md-2, {
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    }
+
+    .col-md-8 {
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    }  
+
+
+    img {
+    margin: auto;
+    border-color:#5d3571;
+    padding: 10px;
+    display: block;
+    }
+
+    footer {
+    padding: 45px 0;
+    }
+
 }
 
-.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
-    border-color: #000;
-    background-color: #000;
-    color: #F8BBD0;
-
-    }
