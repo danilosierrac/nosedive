@@ -1,6 +1,5 @@
 /*!
- * Start Bootstrap - Small Business (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
+ * Nosedive: Based on the Start Bootstrap - Small Business Template (http://startbootstrap.com/)
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
@@ -17,7 +16,7 @@
 
 body {
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
-    background-color: #fdbfae;
+    background: linear-gradient(135deg,#f4e9e9,#ebc8bf);
     font-family: 'Roboto', sans-serif;
         opacity: 75%;
     color: #5d3571;
