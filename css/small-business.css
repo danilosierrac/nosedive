@@ -1,0 +1,124 @@
+/*!
+ * Start Bootstrap - Small Business (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+img {
+    background-image: url(oval.gif);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    width: 175px;
+    height: 175px;
+
+
+}
+
+
+body {
+    padding-top: 0px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    background-color: #F8BBD0;
+    font-family: 'Roboto', sans-serif;
+        opacity: 75%;
+}
+
+
+hr {
+    border-color: #777;
+}
+
+img {
+    border-color: #777;
+    border-width: 3px;
+}
+
+
+a {
+    font-weight:300;
+    color: #000;
+}
+
+a:hover{
+    color: #000;
+    font-weight:400;
+    text-decoration: none;
+}
+
+hr{
+    display: block;
+}
+
+/*h3 {
+    display: inline;
+    padding-left: 20px;
+}*/
+
+
+p {
+    font-weight: 300;
+}
+
+
+h3 {
+/*    font-style: italic;*/
+/*    text-transform: uppercase;*/
+    font-weight: 300;
+}
+
+h4 {
+    font-style: italic;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.comment{
+    font-size: 10px;
+    font-weight: 300;
+}
+
+
+
+.mini {
+    display:inline-block;
+    padding-right:10px;
+}
+
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+footer {
+    padding: 30px 0;
+}
+
+@media(min-width:768px) {
+    body {
+        padding-top: 20px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+}
+
+
+.btn-default {
+    
+    border-color: #000;
+    background-color: transparent;
+    color: #000;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
+    border-color: #000;
+    background-color: #000;
+    color: #F8BBD0;
+
+    }
